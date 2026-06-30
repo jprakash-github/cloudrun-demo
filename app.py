@@ -3,4 +3,4 @@ app = Flask(__name__)
 
 @app.route("/")
 def home():
-    return "Hello from Cloud Run CI/CD!"
+    return "Hello Cloud Run - Version 2""
