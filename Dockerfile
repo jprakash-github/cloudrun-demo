@@ -2,4 +2,4 @@ FROM python:3.12-slim
 WORKDIR /app
 COPY . .
 RUN pip install -r requirements.txt
-CMD exec gunicorn --bind :$PORT app:app
+CMD exec gunicorn --bind 0.0.0.0:$PORT app:app
