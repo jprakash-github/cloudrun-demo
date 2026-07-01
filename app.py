@@ -4,4 +4,4 @@ app = Flask(__name__)
 
 @app.route("/")
 def home():
-    return "Hello Testing Automation"
+    return "Hello Testing Automation for vxi"
